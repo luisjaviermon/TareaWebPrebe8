@@ -1,0 +1,97 @@
+joule7
+->pagina estatica: solo muestra informacion (imagen, texto, video)
+->Pagina dinamica: se puede interactuar con la pagina
+
+Sketch
+	boceto sobre el preyecto digital(idea basica)
+Wireframe
+	estructura basica de la pagina (estructura a implementar)
+Mockup 
+	boseto de alta fidelidad(desarrollado en un programa) que incluye el como se va a interactuar con el
+	usuario
+Prototype
+	representacion de la pagina ubicada en un area local o en un servidor que  
+
+
+creacion de proyectos
+
+creamos carpeta "clase0"
+ingresamos
+git init
+creamos index.html
+creamos carpetas css back media(o img)
+entramos a css
+creamos style.css
+
+en sublime 
+ctr + p
+install + 
+package
+autofilename
+* a file icon
+brackethighter
+color highlogter
+color picker
+emmet
+HTML beauty
+
+los link y href ermiten 
+
+
+---primer index.html
+	<header><!--encabezado (se coloca la barra de opciones o navegacion)-->
+		
+	</header>
+	<div>
+		<h1>Dentro del div</h1><!--divodimos en secciones-->
+	</div>
+	<h1>Titulo</h1><!--creamos titulos-->
+	<h2>Titulo</h2>
+	<h3>Titulo</h3>
+	<h4>Titulo</h4>
+	<h5>Titulo</h5>
+	<h6>Titulo</h6>
+	<!--creacion de parrafos-->
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, ad, nesciunt. Illo architecto voluptatum eligendi inventore perferendis, aspernatur, fugit laboriosam saepe nulla ea, minus nam reprehenderit, iste veritatis suscipit perspiciatis!</p><!--lorem + numero de palabras (o nada) + tab-->
+
+	<br>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quos neque cum nulla, dolor repellat maxime. Libero, harum minus temporibus, porro eveniet cumque provident asperiores, nisi repellendus aliquid voluptas quia.</p>
+
+	<div id="comer">
+		comida
+		<img src="img/icono.png" alt="Logo empresa"> <!--img + tab-->
+	</div>
+
+	<div>
+	<button>botoncito</button>
+	</div>
+
+	<img class="imgre" src="img/icono.png" alt=""><!--img*5-->
+	<img src="img/icono.png" alt="">
+	<img class="imgre" src="img/icono.png" alt="">
+	<img src="img/icono.png" alt="">
+	<img class="imgre" src="img/icono.png" alt="">
+
+----primer css
+*{
+	background-color: green;
+}
+h1,h5{ /*seleccionamos la etiqueta a cambiar*/
+	color:red;
+	color:#2CE40E;
+	color:#5086FF;
+}
+
+p o{
+	color:blue;
+}
+
+#comer{
+	color: red;
+}
+
+.imgre{/*selecciona a la clase (conjunto que tendra las mismas caracteristicas)*/
+	height: 125px;
+	width: 200px;
+}

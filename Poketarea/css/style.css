@@ -1,0 +1,27 @@
+body{
+	background:  #49a2e7 ;
+}
+
+#tabla{
+	float: left;
+}
+
+table th{
+	color: #f2f2f2;
+}
+
+caption{
+	color: #f2f2f2;
+}
+
+#presentacion{
+	width: 90%;
+	height: 1000px;
+	background:  #21cce7 ; 
+	float: center;
+	margin: 10px 60px;
+}
+
+.contenido{
+
+}

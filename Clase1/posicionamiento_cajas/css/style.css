@@ -1,0 +1,38 @@
+body{
+	background: #f1f1f1;
+}
+
+h1{
+	position: absolute;
+	/*coloca la caja en las ditancias desde el inicio de la pagina*/
+	top: 50px;
+	left: 100px;
+}
+
+.pos{
+	position: relative;
+	/*coloca una caja dependiendo del lugar de la anterior y el desplazamiento
+	 inicia de la posicion original*/
+	 left: 100px;
+	 right: 100px;
+	 top: 100px;
+	 bottom: 100px;
+	 padding: 20px;
+}
+
+.pos1{
+	position: fixed;
+	/*fija el contenido a la pantalla e impide el desplazamiento cunado se baja la pagina*/
+	 left: 200px;
+	 right: 200px;
+	 top: 200px;
+	 bottom: 200px;
+}
+
+.pos2{
+	position: relative;
+	left: 200px;
+	 right: 200px;
+	 top: 200px;
+	 bottom: 200px;
+}

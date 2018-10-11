@@ -1,0 +1,57 @@
+/*div{
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	border: 4px solid yellow;
+}
+
+div#num:hover{/*cuando el maouse este sobre el obj*/
+	/*transform: rotate(45deg);
+	background: #f2f2f2;
+	width: 500px;
+	transition-duration: 2s;  
+}*/
+
+body{
+	background: blue;
+}
+
+h1{
+	color: yellow;
+	text-align: center;
+}
+
+h2{
+	color: black;
+	text-align: center;
+}
+
+.clase1{
+	width: 50px;
+	height: 50px;
+	background: pink;
+}
+
+.clase2{
+	height: 0px;
+	border-bottom: 50px solid red; 
+	border-left: 50px solid red;
+	border-right: 50px solid red;
+	animation-name: clase2;
+	animation-duration: 3s;
+	animation-iteration-count: infinite; 
+}
+
+@keyframes clase1{
+	0%{background-color: red;}
+	25%{background-color: black;}
+	50%{background-color: white;}
+	100%{background-color: yellow;}
+}
+
+@keyframes clase2{
+	0%{border-left: red;border-right: 50px solid transparent; border-bottom: 50px solid red; left:0px; top:;}
+	25%{border-left: black;border-right: 50px solid transparent; border-bottom: 50px;}
+	50%{border-left: white;border-right: 50px solid transparent; border-bottom: 50px;}
+	100%{border-left: yellow;border-right: 50px solid transparent; border-bottom: 50px;}
+}

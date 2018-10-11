@@ -1,0 +1,38 @@
+
+p>span{color:red;}/*aquel p que tenga dentro de manera directa un span*/
+
+
+/*selector descendente*/
+p a{/*todas las etiquetas p que tenga dentro un a(donde sea)*/
+	background: blue;
+}
+
+p>a{background: yellow;}
+
+h3{
+	background: pink;
+}
+
+h2 + h3{ /*Cualquier h2 que le siga un h3*/
+	color:green;
+}
+
+p + p{
+	text-indent: 20em;
+	background: #ff3432;
+}
+
+p[class]{
+	background: orange;
+}
+
+p[class=clase2]{
+	background: #112233;
+}
+
+a[class~="estilo3"]{
+	background: #6543ff;
+}
+a[class~=estilo2]{
+	background: #a32345;
+}

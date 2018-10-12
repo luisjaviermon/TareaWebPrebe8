@@ -21,3 +21,52 @@
 	border-radius: 30px;
 	border-width: 20px;
 }
+
+/*Utilizando la propiedad margin, es posible establecer de forma abreviada el mismo valor a todos los márgenes de un elemento:
+
+div {
+  margin: 10px;
+}
+
+La propiedad margin es tan poderosa que permite establecer uno, dos, tres o los cuatro márgenes de forma simultánea.
+
+Si se indican dos valores, el primero hace referencia a los márgenes verticales y el segundo es el valor de los márgenes horizontales, de modo que las siguientes reglas CSS son equivalentes:
+
+div {
+  margin: 10px 20px;
+}
+ 
+div {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+Si se indican tres valores, el primero hace referencia al margen superior, el segundo es el valor de los márgenes horizontales y el tercero es el margen inferior, de modo que las siguientes reglas CSS son equivalentes:
+
+div {
+  margin: 10px 20px 30px;
+}
+ 
+div {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+Por último, si se indican cuatro valores, el primero es el margen superior, el segundo es el margen derecho, el tercero es el margen inferior y el cuarto es el margen izquierdo, de modo que las siguientes reglas CSS son equivalentes:
+
+div {
+  margin: 10px 20px 30px 40px;
+}
+ 
+div {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+*/

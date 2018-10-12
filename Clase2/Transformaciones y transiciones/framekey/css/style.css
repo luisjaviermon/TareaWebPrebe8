@@ -68,7 +68,7 @@ div
 	width: 50px;
 	height: 50px;
 	background-color: orange;
-	animation: circulo 1s linear 2s infinite;
+	animation: circulo 3s linear 3s infinite;
 }
 @keyframes circulo
 {	/*para la sombras se reciben 4 parámetros, los más importantes son los dos primeros
